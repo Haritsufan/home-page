@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useTranslation } from "react-i18next";
 
@@ -20,10 +19,10 @@ export default function Hero() {
         muted
         playsInline
         preload={"auto"}
-        poster={"/assets/hero-poster.jpg"}
+        poster={`${import.meta.env.BASE_URL}assets/hero-poster.jpg`}
       >
         <source
-          src={"/assets/4151e860488d4a.mp4"}
+          src={`${import.meta.env.BASE_URL}assets/4151e860488d4a.mp4`}
           type={"video/mp4"}
         />
       </video>
