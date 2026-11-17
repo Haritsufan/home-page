@@ -186,8 +186,8 @@ export default function Navbar({ setPage }) {
           <a
             className="font-semibold text-slate-600 hover:text-slate-900 transition"
             href="https://www.trade2gov.com/login"
-            target="_blank"
-            rel="noopener noreferrer"
+            
+            
           >
             {t("navbar.login")}
           </a>
