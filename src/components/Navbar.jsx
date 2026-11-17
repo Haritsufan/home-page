@@ -75,7 +75,7 @@ export default function Navbar({ setPage }) {
           <img
             alt="Trade2Gov"
             className="h-12 lg:h-14 w-auto object-contain"
-            src={`${import.meta.env.BASE_URL}/assets/logo-t2g.png`}
+            src={`${import.meta.env.BASE_URL}assets/logo-t2g.png`}
           />
         </a>
 
