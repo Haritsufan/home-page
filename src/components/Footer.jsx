@@ -201,7 +201,7 @@ export default function Footer({ setPage }) {
         </div>
 
         {/* Legal */}
-        <div className={"lg:col-span-2"}>
+        {/* <div className={"lg:col-span-2"}>
           <h4 className={"text-white font-bold mb-4"}>{t("footer.legal")}</h4>
 
           <ul className={"space-y-2 text-sm"}>
@@ -231,7 +231,7 @@ export default function Footer({ setPage }) {
               <span className={"draft-note"}>{t("footer.pendingConfirmation")}</span>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Kontak Perusahaan */}
         <div className={"lg:col-span-3"}>
