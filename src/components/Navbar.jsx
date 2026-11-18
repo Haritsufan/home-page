@@ -114,7 +114,7 @@ export default function Navbar({ setPage }) {
             {t("navbar.blog")}
           </a>
 
-          <a
+          {/* <a
             className="hover:text-red-600 transition"
             href="#client"
             onClick={(event) => {
@@ -134,7 +134,7 @@ export default function Navbar({ setPage }) {
             }}
           >
             {t("navbar.pricing")}
-          </a>
+          </a> */}
 
           <a
             className="hover:text-red-600 transition"
@@ -295,7 +295,7 @@ export default function Navbar({ setPage }) {
             {t("navbar.clients")}
           </a>
 
-          <a
+          {/* <a
             className="py-3 border-b border-slate-100"
             href="#pricing"
             onClick={(event) => {
@@ -304,7 +304,7 @@ export default function Navbar({ setPage }) {
             }}
           >
             {t("navbar.pricing")}
-          </a>
+          </a> */}
 
           <a
             className="py-3 border-b border-slate-100"
